@@ -63,4 +63,4 @@ Considerando arquiteturas padrão de 32 e 64 bits (como GCC em x86/x86_64):
 | **TOTAL** | — | — | — | $\mathbf{109\text{ bytes}}$ |
 
 ### Nota sobre Alinhamento de Memória (*Padding*)
-O somatório bruto dos dados declarados resulta em **$109$ bytes**. Contudo, dependendo das regras de alinhamento do compilador e da arquitetura do processador (por exemplo, alinhamento de $4$ ou $8$ bytes), o compilador pode inserir *bytes* de preenchimento (*padding*) invisíveis na pilha (*stack frame*), elevando ligeiramente o espaço alocado para fins de otimização de hardware.
+O somatório bruto dos dados declarados resulta em **$109$ bytes**.
